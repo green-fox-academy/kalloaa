@@ -1,0 +1,53 @@
+
+body {
+    background-image: url(assets/topography.png);
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+#red{
+    color: #FF0000;
+    font-family: 'Franklin Gothic Medium';
+}
+
+p{
+padding:5px 0;
+font-size: 15px;
+font-family: Verdana; 
+ margin: 0;
+}
+
+.cim{
+    font-size: 20px;
+    text-align: center;
+    padding: 1px;
+}
+#box{
+    width: 100%;
+    background-color: #333333;
+    padding: 20px;
+    height:40px ;
+}
+#a{
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: #ff0099;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+
+}
+#nev{
+    font-size: 40px;
+    font-family: Verdana;
+}
+.separator{
+    text-align: center;
+    font-size: 30px;
+}
+#kep{
+    text-align: left;
+    padding: 70px;
+    height: 30px;
+    margin: 0;
+    width: 30px;
+}

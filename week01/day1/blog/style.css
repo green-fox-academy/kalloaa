@@ -1,0 +1,35 @@
+body{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: url(giphy.gif);
+}
+#blog{
+    background-color: gray;
+    width: 100%;
+    color:black;
+}
+#all{
+    padding-right: 15%;
+    padding-left: 15%;
+}
+.bottombox{
+    padding-right: 90px;
+    border:black solid 3px;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+#titlebox{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-right: 85%;
+    border:black solid 3px;
+    color: black;
+}
+#contentbox{
+    border:black solid 3px;
+    color: black;
+    padding-top: 200px;
+
+}
