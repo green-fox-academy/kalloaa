@@ -9,7 +9,7 @@ public class pyramid {
         int pyrapoz = (pyramid);
         for(int i =0; i<=pyramid;i++){
             System.out.println();
-            for (int j =pyraneg; j<=pyrapoz;j++){
+            for (int j =pyramid*-1; j<=pyramid;j++){
                 if (j>=(i*-1) && j<=0){
                     System.out.print("+");
                 }
