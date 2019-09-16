@@ -46,27 +46,15 @@ public class SubInt {
                 counter++;
             }
         }
-//        int [] output = new int[counter];
-//        for (int j = 0; j <counter ; j++) {
-//         for (int i = 0; i < numray.length ; i++) {
-//             int asd = 0;
-//            String temp = String.valueOf(numray[i]);
-//            if (temp.contains(numstring)) {
-//                output[asd] = i;
-//                asd++;
-//                }
-//             break;
-//         }
-//        }
         int [] output = new int[counter];
         int asd =  0;
-        int fuckthis =0;
+        int count =0;
         while(asd<counter){
-            for (int i = 0+fuckthis; i <numray.length ; i++) {
+            for (int i = 0+count; i <numray.length ; i++) {
                 String temp = String.valueOf(numray[i]);
                 if (temp.contains(numstring)){
                     output[asd]=i;
-                    fuckthis=i;
+                    count=i;
                     asd++;
                 }
             }
