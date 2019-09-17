@@ -23,8 +23,6 @@ public class mapintroduction {
         System.out.println(hm.get(97));
         System.out.println(hm.remove(97));
         System.out.println(hm.containsKey(100));
-        for (Integer key: hm.keySet()) {
-            hm.remove(key);
-        }
+        hm.clear();
     }
 }

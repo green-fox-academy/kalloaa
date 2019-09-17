@@ -16,13 +16,7 @@ public class mapintro2 {
         hm.remove("The Lab");
         hm.put("978-1-60309-450-4","They Called Us Enemy");
         hm.put("978-1-60309-453-5","Why Did We Trust Him?");
-        System.out.println(hm);
-        if(hm.get("78-0-61159-424-8")==null){
-            System.out.println("false");
-        }
-        else {
-            System.out.println("true");
-        }
+        System.out.println(hm.containsValue("478-0-61159-424-8"));
         System.out.println(hm.get("978-1-60309-453-5"));
     }
 }

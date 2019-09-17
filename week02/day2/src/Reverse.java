@@ -12,13 +12,17 @@ public class Reverse {
     }
     public static String reverse (String strToBeRev){
         char[] chararr =strToBeRev.toCharArray();
-        char[] tempchar = chararr;
+        char[] tempchar = new char[chararr.length];
         int counter =chararr.length-1;
         for (int i = 0; i <chararr.length ; i++) {
-            chararr[counter] =tempchar[i];
+            tempchar[counter] =chararr[i];
             counter--;
         }
-        String output = chararr.toString();
+        String output = new String();
+        for (int i = 0; i <tempchar.length ; i++) {
+            output+= String.valueOf(tempchar[i]);
+
+        }
         return output;
     }
 }
