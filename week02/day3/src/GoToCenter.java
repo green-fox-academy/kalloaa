@@ -13,8 +13,9 @@ public class GoToCenter {
         // Draw at least 3 lines with that function using a loop.
         Random rand = new Random();
         for (int i = 0; i <rand.nextInt(2000000) ; i++) {
-            graphics.setColor(new Color(rand.nextInt(255),rand.nextInt(255),rand.nextInt(255)));
+            graphics.setColor(new Color(rand.nextInt(256),rand.nextInt(256),rand.nextInt(256)));
             graphics.drawLine(rand.nextInt(290)+30,rand.nextInt(290)+30,160,160);
+
         }
 
 
