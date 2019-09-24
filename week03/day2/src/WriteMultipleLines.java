@@ -20,7 +20,7 @@ public class WriteMultipleLines {
     }
     public static void WriteLines(String path, String wordToAdd,int linesToWrite ){
         try{
-            List<String> content = new ArrayList();
+            ArrayList content = new ArrayList();
             for (int i = 0; i <linesToWrite; i++) {
                 content.add(wordToAdd);
             }
