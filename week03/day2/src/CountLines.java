@@ -5,7 +5,7 @@ import java.util.List;
 
 public class CountLines {
     public static void main(String[] args) {
-        CountTheLines("file.txt");
+        System.out.println(CountTheLines("file.txt"));
     }
     public static int CountTheLines(String file){
         int counter =0;
