@@ -11,5 +11,12 @@
 </form>
 <a href="/useful/email?email=is@asdaasd"> emailtest</a>
 <a href="/useful/email?email=is@asdaa.sd"> emailtest</a>
+<form method="get" action="/useful/ceasar">
+  <button type="submit">CEASAR</button>
+</form>
+<h1>ceasars after process</h1>
+<ul th:each="ceasar : ${ceasars}">
+  <li th:text="${ceasar}"></li>
+</ul>
 </body>
 </html>
