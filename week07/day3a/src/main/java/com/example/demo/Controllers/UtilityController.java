@@ -12,13 +12,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class UtilityController {
+
   private List<String> savedCeasar = new ArrayList<>();
-
-  public List<String> getSavedCeasar() {
-    return savedCeasar;
-  }
-
-
   private UtilityService utilityService;
 
   @Autowired
