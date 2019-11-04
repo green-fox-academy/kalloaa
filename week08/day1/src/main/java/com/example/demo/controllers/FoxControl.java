@@ -26,6 +26,7 @@ public class FoxControl {
     }
     else {
       model.addAttribute("name",foxService.getName());
+      model.addAttribute("avatar",foxService.getAvatar());
       return "index";
     }
   }
@@ -36,8 +37,9 @@ public class FoxControl {
   }
 
   @PostMapping(value = "/foxclub/login/add")
-  public String doLogin(@RequestParam String name){
-
+  public String doLogin(@RequestParam String name, @RequestParam int avatar){
+    foxService.setName(name);
+    foxService.setAvatar(avatar);
     return "redirect:/foxclub";
   }
 }

@@ -6,12 +6,16 @@ import org.springframework.stereotype.Service;
 @Service
 public class FoxService {
   String name;
+  int avatar;
+  String avatarImg;
   ArrayList<String> skills;
 
-  public FoxService(String name, ArrayList<String> skills) {
+  public FoxService(String name, int avatar, ArrayList<String> skills) {
     this.name = name;
+    this.avatar = avatar;
     this.skills = skills;
   }
+
   public FoxService(){
   }
 
@@ -31,4 +35,22 @@ public class FoxService {
     skills.add(skill);
   }
 
+  public String getAvatar() {
+    String temp = "";
+    switch (avatar){
+      case 1 : temp = "doge.jpg";
+      break;
+      case 2 : temp = "doge_abstract.jpg";
+      break;
+      case 3 : temp = "doge_bread.png";
+      break;
+      default : temp = "doge_spoopy.jpg";
+      break;
+    }
+    return temp;
+  }
+
+  public void setAvatar(int avatar) {
+    this.avatar = avatar;
+  }
 }
